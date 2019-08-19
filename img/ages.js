@@ -23,16 +23,16 @@ function verificar() {
    var genero = 'Mulher'
    if (age >= 0 && age < 10) {
      // Criança
-     img.setAttribute('src','pictures/littlegirl.jpg')
+     img.setAttribute('src','img/littlegirl.jpg')
    } else if (age < 21){
     // jovem 
-    img.setAttribute('src','pictures/youngwoman.jpg')
+    img.setAttribute('src','img/youngwoman.jpg')
    } else if (age < 50){
     // Adulto
-    img.setAttribute('src','pictures/adultwoman.jpg')
+    img.setAttribute('src','img/adultwoman.jpg')
    } else{
     // idoso
-    img.setAttribute('src','pictures/oldwoman.jpg')
+    img.setAttribute('src','img/oldwoman.jpg')
   } 
   res.innerHTML = `Detectamos ${genero} que tem ${age} anos de idade`
   res.appendChild(img)
@@ -41,16 +41,16 @@ function verificar() {
 
  if (age >= 0 && age < 10) {
    // Criança
-   img.setAttribute('src','pictures/littleboy.jpg')
+   img.setAttribute('src','img/littleboy.jpg')
  } else if (age < 21){
   // jovem 
-  img.setAttribute('src','pictures/youngman.jpg')
+  img.setAttribute('src','img/youngman.jpg')
  } else if (age < 50){
   // Adulto
-  img.setAttribute('src','pictures/adultman.jpg')
+  img.setAttribute('src','img/adultman.jpg')
  } else{
   // idoso
-  img.setAttribute('src','pictures/oldman.jpg')
+  img.setAttribute('src','img/oldman.jpg')
 } 
   
 res.innerHTML = `Detectamos ${genero} que tem ${age} anos de idade`
